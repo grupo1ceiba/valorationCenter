@@ -2,5 +2,5 @@ package com.grupoOneValoration.controller;
 
 public interface ControllerCalculateInsurance {
 	
-	public Object calculateInsuranceToPay() throws Exception;
+	public Double calculateInsuranceToPay(Double propertyValue) throws Exception;
 }
