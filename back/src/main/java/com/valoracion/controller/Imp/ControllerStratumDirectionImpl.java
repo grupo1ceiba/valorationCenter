@@ -1,6 +1,6 @@
-package com.grupoOneValoration.controllerImp;
+package com.valoracion.controller.Imp;
 
-import com.grupoOneValoration.controller.ControllerStratumDirection;
+import com.valoracion.controller.ControllerStratumDirection;
 
 public class ControllerStratumDirectionImpl implements ControllerStratumDirection{
 
