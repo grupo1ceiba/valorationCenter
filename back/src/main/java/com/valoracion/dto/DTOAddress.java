@@ -1,4 +1,6 @@
 package com.valoracion.dto;
+
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
@@ -9,24 +11,24 @@ public class DTOAddress {
     private String street;
     @SerializedName("streetValue")
     @Expose
-    private String streetValue;
+    private Integer streetValue;
     @SerializedName("cardinal")
     @Expose
     private String cardinal;
     @SerializedName("avenueValue")
     @Expose
-    private String avenueValue;
+    private Integer avenueValue;
     @SerializedName("ordinal")
     @Expose
     private String ordinal;
     @SerializedName("pointValue")
     @Expose
-    private String pointValue;
+    private Integer pointValue;
 
     public DTOAddress() {
     }
 
-    public DTOAddress(String street, String streetValue, String cardinal, String avenueValue, String ordinal, String pointValue) {
+    public DTOAddress(String street, Integer streetValue, String cardinal, Integer avenueValue, String ordinal, Integer pointValue) {
         this.street = street;
         this.streetValue = streetValue;
         this.cardinal = cardinal;
@@ -43,11 +45,11 @@ public class DTOAddress {
         this.street = street;
     }
 
-    public String getStreetValue() {
+    public Integer getStreetValue() {
         return streetValue;
     }
 
-    public void setStreetValue(String streetValue) {
+    public void setStreetValue(Integer streetValue) {
         this.streetValue = streetValue;
     }
 
@@ -59,11 +61,11 @@ public class DTOAddress {
         this.cardinal = cardinal;
     }
 
-    public String getAvenueValue() {
+    public Integer getAvenueValue() {
         return avenueValue;
     }
 
-    public void setAvenueValue(String avenueValue) {
+    public void setAvenueValue(Integer avenueValue) {
         this.avenueValue = avenueValue;
     }
 
@@ -75,11 +77,11 @@ public class DTOAddress {
         this.ordinal = ordinal;
     }
 
-    public String getPointValue() {
+    public Integer getPointValue() {
         return pointValue;
     }
 
-    public void setPointValue(String pointValue) {
+    public void setPointValue(Integer pointValue) {
         this.pointValue = pointValue;
     }
 
