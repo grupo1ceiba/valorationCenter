@@ -1,11 +1,11 @@
-package com.grupoOneValoration.valoration_group_one.controller;
+package com.valoracion.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.grupoOneValoration.valoration_group_one.controller.impl.ImplMockupController;
+import com.valoracion.controller.impl.ImplMockupController;
 
 @RestController
 @RequestMapping("/introduction")

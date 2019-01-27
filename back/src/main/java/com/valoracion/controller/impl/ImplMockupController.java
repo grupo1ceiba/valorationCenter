@@ -1,4 +1,4 @@
-package com.grupoOneValoration.valoration_group_one.controller.impl;
+package com.valoracion.controller.impl;
 
 public interface ImplMockupController {
 	
