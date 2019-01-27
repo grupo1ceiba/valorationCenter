@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin("*")
 public class Controller {
 
-	@RequestMapping(value="/ping", method=RequestMethod.POST)
+	@RequestMapping(value="/ping", method=RequestMethod.GET)
 	public String ping(){
 		
 		return ("::::+> Si hay comunicación.");
