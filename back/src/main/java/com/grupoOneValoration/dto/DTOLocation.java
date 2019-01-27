@@ -1,8 +1,15 @@
 package com.grupoOneValoration.dto;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class DTOLocation {
 
+    @SerializedName("country")
+    @Expose
     private String country;
+    @SerializedName("city")
+    @Expose
     private String city;
 
     public DTOLocation() {

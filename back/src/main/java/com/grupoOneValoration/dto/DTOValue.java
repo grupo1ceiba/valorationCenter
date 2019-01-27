@@ -1,8 +1,15 @@
 package com.grupoOneValoration.dto;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class DTOValue {
 
+    @SerializedName("amount")
+    @Expose
     private Double amount;
+    @SerializedName("currency")
+    @Expose
     private String currency;
 
     public DTOValue() {

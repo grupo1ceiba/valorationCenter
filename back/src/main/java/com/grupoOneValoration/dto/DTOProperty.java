@@ -1,14 +1,33 @@
 package com.grupoOneValoration.dto;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class DTOProperty {
 
+    @SerializedName("id")
+    @Expose
     private String id;
+    @SerializedName("area")
+    @Expose
     private String area;
+    @SerializedName("stratum")
+    @Expose
     private String stratum;
+    @SerializedName("type")
+    @Expose
     private String type;
+    @SerializedName("value")
+    @Expose
     private DTOValue value;
+    @SerializedName("address")
+    @Expose
     private DTOAddress address;
+    @SerializedName("location")
+    @Expose
     private DTOLocation location;
+    @SerializedName("insurance")
+    @Expose
     private DTOValue insurance;
 
     public DTOProperty() {
