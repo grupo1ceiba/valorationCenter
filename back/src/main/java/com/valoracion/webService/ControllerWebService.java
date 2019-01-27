@@ -12,11 +12,12 @@ import com.valoracion.dto.DTOProperty;
 import com.valoracion.dto.DTOValue;
 
 
+
 @RestController
 @RequestMapping("/wsValorationCenter")
 @CrossOrigin("*")
 public class ControllerWebService {
-	
+
 	@ResponseBody
 	@RequestMapping(value="/valorationCenterInformationWS", method=RequestMethod.POST)
 	public Object valorationCenterInformationWS(@RequestBody DTOProperty property) throws Exception{
