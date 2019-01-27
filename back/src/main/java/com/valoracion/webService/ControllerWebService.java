@@ -26,6 +26,7 @@ public class ControllerWebService {
 		ControllerCalculateInsuranceImpl calculateInsuranceImpl = new ControllerCalculateInsuranceImpl();
 		valueInsurance.setAmount(calculateInsuranceImpl.calculateInsuranceToPay(property.getValue().getAmount()));
 		valueInsurance.setCurrency(property.getValue().getCurrency());
+		
 		return valueInsurance;
 	}	
 }
