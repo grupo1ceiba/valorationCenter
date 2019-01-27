@@ -1,6 +1,8 @@
 package com.valoracion.controller;
 
+import com.valoracion.dto.DTOAddress;
+
 public interface ControllerStratumDirection {
 	
-	public Object stratumByDirection() throws Exception;
+	public boolean stratumByDirection(DTOAddress address, String stratum) throws Exception;
 }
