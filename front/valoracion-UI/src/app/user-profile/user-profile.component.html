@@ -1,0 +1,130 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header ">
+                        <h4 class="card-title">Registro</h4>
+                        <br/>
+                        <br/>
+                        <p class="card-category">Datos del Propietario</p>
+                    </div>
+                    <form>
+                        <div class="card-body">
+
+
+                            <!--  <div class="row">
+                              <div class="col-md-5">
+                                <mat-form-field class="example-full-width">
+                                    <input matInput placeholder="Company (disabled)" disabled>
+                                  </mat-form-field>
+                              </div>
+                              <div class="col-md-3">
+                                  <mat-form-field class="example-full-width">
+                                    <input matInput placeholder="Username">
+                                  </mat-form-field>
+                              </div>
+                              <div class="col-md-4">
+                                  <mat-form-field class="example-full-width">
+                                    <input matInput placeholder="Email address" type="email">
+                                  </mat-form-field>
+                              </div>
+                          </div>-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput placeholder="Nombre" type="text">
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-6">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput placeholder="Apellido" type="text">
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-6">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput placeholder="Cedula" type="number">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput placeholder="Pais" type="text">
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-4">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput placeholder="Ciudad" type="text">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                        <div class="card-header ">
+                            <p class="card-category">Datos del Inmueble</p>
+
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput placeholder="Direccion" type="text">
+                                    </mat-form-field>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <mat-form-field class="example-full-width">
+                                        <mat-select placeholder="Tipo de Inmueble">
+                                            <mat-option *ngFor="let tipo of tiposimueble" [value]="tipo.id">
+                                                {{tipo.descripcion}}
+                                            </mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput placeholder="Valor" ng-model="money" ui-money-mask>
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-4">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput placeholder="Metros cuadrados" type="number">
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-4">
+                                    <mat-form-field class="example-full-width">
+                                        <mat-select placeholder="Tipo de Inmueble">
+                                            <mat-option [value]="1">
+                                                1
+                                            </mat-option>
+                                            <mat-option [value]="2">
+                                                2
+                                            </mat-option>
+                                            <mat-option [value]="3">
+                                                3
+                                            </mat-option>
+                                            <mat-option [value]="4">
+                                                4
+                                            </mat-option>
+                                            <mat-option [value]="5">
+                                                5
+                                            </mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <button mat-raised-button type="submit" class="btn btn-danger pull-right">Enviar datos</button>
+                            <div class="clearfix"></div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
