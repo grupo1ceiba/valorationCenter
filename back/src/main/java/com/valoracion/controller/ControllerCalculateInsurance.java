@@ -1,4 +1,4 @@
-package com.grupoOneValoration.controller;
+package com.valoracion.controller;
 
 public interface ControllerCalculateInsurance {
 	

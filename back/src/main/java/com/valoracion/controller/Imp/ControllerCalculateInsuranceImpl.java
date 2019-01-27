@@ -1,6 +1,6 @@
-package com.grupoOneValoration.controllerImp;
+package com.valoracion.controller.Imp;
 
-import com.grupoOneValoration.controller.ControllerCalculateInsurance;
+import com.valoracion.controller.ControllerCalculateInsurance;
 
 public class ControllerCalculateInsuranceImpl implements ControllerCalculateInsurance{
 

@@ -1,4 +1,4 @@
-package com.grupoOneValoration.webService;
+package com.valoracion.webService;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
