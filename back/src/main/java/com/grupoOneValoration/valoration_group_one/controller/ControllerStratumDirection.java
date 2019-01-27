@@ -1,4 +1,4 @@
-package com.grupoOneValoration.controller;
+package com.grupoOneValoration.valoration_group_one.controller;
 
 public interface ControllerStratumDirection {
 	
