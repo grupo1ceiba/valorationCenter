@@ -1,12 +1,26 @@
 package com.grupoOneValoration.dto;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
 public class DTOAddress {
 
+    @SerializedName("street")
+    @Expose
     private String street;
+    @SerializedName("streetValue")
+    @Expose
     private String streetValue;
+    @SerializedName("cardinal")
+    @Expose
     private String cardinal;
+    @SerializedName("avenueValue")
+    @Expose
     private String avenueValue;
+    @SerializedName("ordinal")
+    @Expose
     private String ordinal;
+    @SerializedName("pointValue")
+    @Expose
     private String pointValue;
 
     public DTOAddress() {
